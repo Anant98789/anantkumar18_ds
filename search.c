@@ -39,11 +39,11 @@ void binary(int arr,int n,int e)
     }
     if(c==-1)
     {
-        printf("%d exist in array",e);
+        printf("%d doesn't exist in array",e);
     }
     else
     {
-        printf("doesn't exist in array");
+        printf("exist in array");
     }
 }
 void main()
